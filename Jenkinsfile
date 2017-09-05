@@ -11,7 +11,7 @@ pipeline {
   }
   post {
     always {
-      archiveArtifacts archive: 'dist/*.jar', fingerprints: true
+      archiveArtifacts archive: 'dist/*.jar', fingerprint: true
   }
 }
 
